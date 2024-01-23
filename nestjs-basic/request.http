@@ -1,0 +1,11 @@
+### list all messages
+GET http://localhost:3000/nestjs-basic
+
+### Create a new message
+
+POST http://localhost:3000/nestjs-basic
+content-type: application/json
+
+{
+    "content": "hi there"
+}
